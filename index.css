@@ -71,7 +71,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 1rem;
+  padding-top: 5rem;
   font-size: 20px;
   font-weight: 600;
   color: #CCC1FF;
@@ -83,24 +83,10 @@ body {
   color: #FFFFFF;
 }
 
-@media screen and (min-width: 400px) {
-  .output-header {
-    margin: 1rem;
-    padding-top: 1.5rem;
-  }
-}
-
-@media screen and (min-width: 500px) {
-  .output-header {
-    margin: 1rem;
-    padding-top: 2.5rem;
-  }
-}
-
 @media screen and (min-width: 600px) {
   body {
     max-height: 700px;
-    padding: 1rem;
+    padding-top: 2.5rem;
   }
   
   .input-container, .output-container {
@@ -112,16 +98,16 @@ body {
     width: 100%;
     background-color: #273549;
   }
-
-  .output-header {
-    margin: 1rem;
-    padding-top: 3.5rem;
-  }
 }
 
-@media screen and (min-width: 700px) {
-  .output-header {
-    margin: 1rem;
-    padding-top: 5rem;
-  }
+.buttons {
+  display: flex;
+  gap: 1rem;
 }
+
+.return {
+  text-decoration: none;
+  color: unset;
+  display: block;
+}
+

@@ -56,6 +56,10 @@ body {
   background: #1F2937;
   height: 100vh;
 }
+.output-error h2 {
+  font-size: 20px;
+  color: red;
+}
 
 .output-type {
   height: 30%;
